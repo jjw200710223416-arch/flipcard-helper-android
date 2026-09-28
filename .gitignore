@@ -1,0 +1,20 @@
+# Gradle / Android
+.gradle/
+build/
+app/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+*.hprof
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 注意：tools/coretest/fixtures/ 里的测试数据是要提交的（约 0.5MB），
+# 它是「Java 内核和 JS 参考实现行为一致」的证明，别加到忽略列表里。
